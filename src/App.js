@@ -10,6 +10,7 @@ import Service from './pages/Service/Service';
 import SignIn from './pages/SignIn/SignIn';
 import SignUp from './pages/SignUp/SignUp';
 import NotFound from './pages/404/NotFound';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/signup' element={<SignUp />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

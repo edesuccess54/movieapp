@@ -1,9 +1,6 @@
 import './NavBar.css'
 import { NavLink } from 'react-router-dom'
 
-import Button from './Button'
-
-
 function NavList({ name, to }) {
     if (name == 'Home') {
         return  <NavLink exact to={to}>{name}</NavLink>
@@ -21,9 +18,6 @@ export const NavBar = () => {
                 <NavList name="Our Services" to="/service"/>
                 <NavList name="Sign In" to="/login"/>
                 <NavList name="Signup" to="/signup" />
-                <Button>
-        
-                </Button>
             </nav>
       </header>
   )
