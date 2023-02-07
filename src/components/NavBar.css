@@ -1,0 +1,31 @@
+header {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    background: gray;
+}
+
+.brand {
+    font-size: 20px;
+}
+
+nav {
+    margin-left: auto;
+    display: flex;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+nav a.active {
+    background: #1e1e1e;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #111;
+}
